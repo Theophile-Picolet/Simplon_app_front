@@ -1,6 +1,6 @@
 {
   "name": "simplon-app-front",
-  "homepage": "https://Theophile-Picolet/.github.io/Simplon_app_front/",
+  "homepage": "https://Theophile-Picolet.github.io/Simplon_app_front/",
   "type": "module",
   "scripts": {
     "check-types": "tsc --noEmit",
