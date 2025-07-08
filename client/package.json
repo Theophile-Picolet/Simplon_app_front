@@ -1,13 +1,17 @@
 {
-  "name": "@js-monorepo/client",
+  "name": "simplon-app-front",
+  "homepage": "https://Theophile-Picolet/.github.io/Simplon_app_front/",
   "type": "module",
   "scripts": {
     "check-types": "tsc --noEmit",
     "dev": "vite --host",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2"
