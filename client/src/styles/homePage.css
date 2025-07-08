@@ -1,0 +1,38 @@
+.homepage {
+  position: relative;
+  height: 75vh;
+  z-index: 1;
+  text-align: center;
+  padding-top: 10rem;
+  margin: 2rem 0;
+  button {
+    font-size: 1.3rem;
+    width: 30ch;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: 1px solid #a30909;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #a3090900;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.1s ease-in;
+  }
+  button:hover {
+    background-color: #a30909da;
+    color: white;
+    transition: all 0.2s ease-in;
+  }
+}
+
+.homepage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/carambar.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.94;
+  z-index: -1;
+}

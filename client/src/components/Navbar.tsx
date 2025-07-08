@@ -1,7 +1,8 @@
+import "../styles/navbar.css";
 export default function Navbar() {
   return (
     <>
-      <h1>Bienvenue chez Carambar & co</h1>
+      <h1 className="navbar">Bienvenue chez Carambar & co</h1>
     </>
   );
 }
