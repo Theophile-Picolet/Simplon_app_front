@@ -4,6 +4,7 @@ import { getRandomBlague } from "../services/request";
 export default function HomePage() {
   const [randomBlague, setRandomBlague] = useState(null);
   const [loading, setLoading] = useState(false);
+  console.info(randomBlague);
 
   const handleClick = async () => {
     setLoading(true);
