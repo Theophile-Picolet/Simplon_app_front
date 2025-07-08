@@ -22,6 +22,7 @@ import ErrorPage from "./pages/ErrorPage";
 const router = createBrowserRouter([
   {
     // The root path
+    path: "/",
     element: <App />, // Renders the App component for the home page
     errorElement: <ErrorPage />,
   },
